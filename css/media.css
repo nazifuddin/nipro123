@@ -1,0 +1,514 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    /*	header start*/
+    .c_padd {
+        padding-bottom: 60px;
+    }
+    header {
+        padding: 0 0;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .menu {
+        margin-left: -25px;
+    }
+    .menu ul li a {
+        padding: 5px 25px !important;
+    }
+    .h_btn {
+        margin-left: 20px;
+    }
+    /*slider start*/
+    .s_item {
+        margin: 20px 0 20px;
+    }
+    .s_h1 {
+        font-size: 26px;
+    }
+    .s_p {
+        margin: 10px 0px 10px 0 !important;
+    }
+    .btn_cm {
+        width: 170px;
+        height: 40px;
+    }
+    /*service start*/
+    .c_title h1 {
+        margin: 30px 0 40px;
+    }
+    .ser_item {
+        margin: 35px 00px 0;
+        padding: 20px 15px 25px;
+    }
+    .ser_icon {
+        margin: -42px auto 0;
+    }
+    /*about*/
+    .ab_text {
+        text-align: center !important;
+    }
+    .ab_p {
+        margin: 20px 0 30px !important;
+    }
+    .ab_btn {
+        margin: 0 auto;
+    }
+    /*Work*/
+    .cus_nav {
+        --bs-nav-link-padding-x: 0.4rem !important;
+        justify-content: center !important;
+    }
+    .work_img {
+        margin-top: 50px;
+    }
+    .box {
+        margin-top: 186px;
+        width: 247px;
+    }
+    /*choose me*/
+    .choose_item {
+        margin-top: 50px;
+    }
+    /*team*/
+    .team_item {
+        margin: 50px 10px 0;
+    }
+    .team_text {
+        padding: 15px 15px;
+    }
+    .team_h2 {
+        font-size: 16px;
+    }
+    /*Pricing start*/
+    .pr_item {
+        margin-top: 50px;
+    }
+    .pr_btn {
+        margin: 20px auto;
+    }
+    /*Cta start*/
+    .cta {
+        height: 150px;
+    }
+    .cta_h1 {
+        font-size: 16px;
+    }
+    .cta_btn {
+        margin: auto;
+        width: 160px;
+    }
+    /*Footer*/
+    .f_h1 {
+        margin: 20px 0 30px !important;
+    }
+    .f_p {
+        margin: 0;
+        padding: 0 3px;
+    }
+    .fe_text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .f_icon {
+        margin: 15px auto 25px;
+        width: 40px;
+        height: 40px;
+    }
+    .f_icon i {
+        margin: 9px 5px;
+        font-size: 20px;
+    }
+    .fe_p {
+        padding: 0 22px;
+    }
+    .fe_txt2 {
+        margin-bottom: 30px;
+    }
+    .fe_txt2 ul {
+        text-align: center;
+    }
+    .fe_txt2 ul li:last-child a {
+        padding-left: 0 !important;
+    }
+    /*Testimony*/
+    .tes_item {
+        margin-top: 70px;
+        padding: 20px 20px;
+    }
+    .tes_h2 {
+        margin-top: 10px;
+    }
+    .tes_p1 {
+        margin: 0 0;
+    }
+    .tes_p2 {
+        margin-bottom: 5px !important;
+    }
+    .tes_btn2 {
+        margin: -100px 115px -120px;
+        height: 300px;
+        transform: rotate(-90deg);
+        justify-content: center;
+    }
+    .prev2 {
+        margin-top: -6px;
+    }
+    .next2 {
+        margin-top: 180px;
+    }
+    /*Contact*/
+    .con_h1 {
+        margin: -16px auto 35px;
+        font-size: 25px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*	header start*/
+    .c_padd {
+        padding-bottom: 60px;
+    }
+    header {
+        padding: 0 0;
+    }
+    .menu {
+        margin-left: -25px;
+    }
+    .menu ul li a {
+        padding: 5px 25px !important;
+    }
+    .h_btn {
+        margin-left: 20px;
+    }
+    /*slider start*/
+    .s_item {
+        margin: 70px 0 70px;
+    }
+    .s_h1 {
+        font-size: 40px;
+    }
+    .s_p {
+        margin: 20px 0px 20px 0 !important;
+    }
+    .btn_cm {
+        width: 170px;
+        height: 40px;
+    }
+    /*service start*/
+    .c_title h1 {
+        margin: 30px 0 40px;
+    }
+    .ser_item {
+        margin: 40px 60px 0;
+        padding: 30px 15px 25px;
+    }
+    .ser_icon {
+        margin: -42px auto 0;
+    }
+    /*about*/
+    .ab_text {
+        text-align: center !important;
+    }
+    .ab_p {
+        margin: 20px 0 30px !important;
+    }
+    .ab_btn {
+        margin: 0 auto;
+    }
+    /*Work*/
+    .cus_nav {
+        --bs-nav-link-padding-x: 0.4rem !important;
+        justify-content: center !important;
+    }
+    .box {
+        margin-top: 186px;
+        width: 247px;
+    }
+    /*choose me*/
+    .choose_item {
+        margin-top: 50px;
+    }
+    /*team*/
+    .team_item {
+        margin-top: 50px;
+    }
+    .team_text {
+        padding: 15px 15px;
+    }
+    .team_h2 {
+        font-size: 16px;
+    }
+    /*Pricing start*/
+    .pr_item {
+        margin-top: 50px;
+    }
+    .pr_btn {
+        margin: 20px auto;
+    }
+    /*Cta start*/
+    .cta_btn {
+        margin: 25px -96px;
+        width: 160px;
+    }
+    /*Testimony*/
+    .tes_item {
+        margin-top: 70px;
+        padding: 20px 20px;
+    }
+    .tes_h2 {
+        margin-top: 10px;
+    }
+    .tes_p1 {
+        margin: 0 0;
+    }
+    .tes_p2 {
+        margin-bottom: 5px !important;
+    }
+    .tes_btn2 {
+        margin: -110px 220px -160px;
+        transform: rotate(-90deg);
+        justify-content: center;
+    }
+    .prev2 {
+        margin-top: 0px;
+    }
+    .next2 {
+        margin-top: 250px;
+    }
+    /*Contact*/
+    .con_h1 {
+        margin: -16px auto 35px;
+        font-size: 25px;
+    }
+    /*Footer*/
+    .f_p {
+        margin: 0;
+    }
+    .fe_text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .f_icon {
+        margin: 25px auto 50px;
+    }
+    .fe_txt2 {
+        margin-bottom: 30px;
+    }
+    .fe_txt2 ul li a {
+        padding: 0 27px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*	header start*/
+    .c_padd {
+        padding-bottom: 80px;
+    }
+    header {
+        padding: 15px 0;
+    }
+    .menu {
+        margin-left: -25px;
+    }
+    .menu ul li a {
+        padding: 5px 25px !important;
+    }
+    .h_btn {
+        margin-left: 20px;
+    }
+    /*slider start*/
+    .s_item {
+        margin: 100px 0 100px;
+    }
+    .s_p {
+        margin: 50px 151px 50px 0 !important;
+    }
+    /*service start*/
+    .ser_item {
+        margin: 80px 140px 0;
+    }
+    /*about*/
+    .ab_text {
+        text-align: center !important;
+    }
+    .ab_btn {
+        margin: 0 auto;
+    }
+    /*Work*/
+    .cus_nav {
+        --bs-nav-link-padding-x: 0.4rem !important;
+    }
+    .box {
+        margin-top: 282px;
+        width: 336px;
+    }
+    /*choose me*/
+    .choose_item {
+        margin-top: 80px;
+    }
+    /*team*/
+    .team_item {
+        margin-top: 50px;
+    }
+    .team_text {
+        padding: 15px 15px;
+    }
+    .team_h2 {
+        font-size: 16px;
+    }
+    /*Pricing start*/
+    .pr_item {
+        margin-top: 70px;
+    }
+    .pr_btn {
+        margin: 20px auto;
+    }
+    /*Cta start*/
+    .cta_btn {
+        margin: 25px -44px;
+    }
+    /*Testimony*/
+    .tes_item {
+        margin-top: 80px;
+        padding: 20px 10px;
+    }
+    .tes_p1 {
+        margin: 0 0;
+    }
+    .tes_p2 {
+        margin-bottom: 5px !important;
+    }
+    .tes_btn2 {
+        margin-top: 80px;
+        height: 490px;
+    }
+    .next2 {
+        margin-top: 370px;
+    }
+    /*Contact*/
+    .con_h1 {
+        margin: -20px auto 60px;
+    }
+    /*Footer*/
+    .f_p {
+        margin: 0;
+    }
+    .fe_txt2 ul li a {
+        padding: 0 1px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*	header start*/
+    header {
+        padding: 20px 0;
+    }
+    .menu {
+        margin-left: 50px;
+    }
+    /*slider start*/
+    .s_item {
+        margin: 150px 0 150px;
+    }
+    /*about*/
+    .ab_text {
+        margin: -8px 0px 0 20px;
+    }
+    .ab_p {
+        margin: 5px 0 6px !important;
+    }
+    /*Work*/
+    .cus_nav {
+        --bs-nav-link-padding-x: 0.4rem !important;
+    }
+    /*team*/
+    .team_text {
+        padding: 15px 15px;
+    }
+    .team_h2 {
+        font-size: 16px;
+    }
+    /*Pricing start*/
+    .pr_item {
+        margin-top: 80px;
+    }
+    .pr_p1 span {
+        font-size: 32px;
+    }
+    .pr_btn {
+        margin: 30px -23px;
+    }
+    /*Testimony*/
+    .tes_p1 {
+        margin: 0 0;
+    }
+    .tes_p2 {
+        margin-bottom: 5px !important;
+    }
+    .tes_btn2 {
+        height: 340px;
+    }
+    .next2 {
+        margin-top: 220px;
+    }
+    /*Footer*/
+    .fe_txt2 ul li a {
+        padding: 0 7px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /*	header start*/
+    .menu {
+        margin-left: 225px;
+    }
+    /*Cta start*/
+    .cta_btn {
+        margin: 25px -34px;
+    }
+    /*Testimony*/
+    .tes_btn2 {
+        height: 345px;
+    }
+    .next2 {
+        margin-top: 220px;
+    }
+    /*Footer*/
+    .fe_txt2 ul li a {
+        padding: 0 17px;
+    }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+
+@media (min-width: 1400px) {
+    /*	header start*/
+    .menu {
+        margin-left: 410px;
+    }
+    /*about*/
+    .ab_p {
+        margin: 60px 0 90px !important;
+    }
+    /*Cta start*/
+    .cta_btn {
+        margin: 25px -4px;
+    }
+    /*Testimony*/
+    .tes_btn2 {
+        height: 390px;
+    }
+    .next2 {
+        margin-top: 260px;
+    }
+}
